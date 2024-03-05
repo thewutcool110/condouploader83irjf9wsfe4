@@ -13,7 +13,7 @@ with open('names.txt', 'r') as f:
 
 lvclient = LinkvertiseClient()
 client = commands.Bot(command_prefix=".", intents=discord.Intents.all())
-tok = ""  # Place your Discord token here
+tok = "MTE2ODY5OTQyMTU2MzgxMzk1MA.GBBf7r.Px1MgCXJERTcacCjerGzwPbbol6ZsjuvnKbQpg"  # Place your Discord token here
 
 client.remove_command('help')
 
